@@ -1,0 +1,19 @@
+id: test_guadalupe
+
+label: Migrate Test
+
+source:
+  plugin: laptop_legacy
+  target: default
+
+destination:
+  plugin: entity:laptop_entity
+
+process:
+  type:
+    plugin: default_value
+    default_value: laptop_entity
+  id: lid
+  name: nombre
+  description: descripcion
+  price_number: precio

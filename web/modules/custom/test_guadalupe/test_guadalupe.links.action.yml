@@ -1,0 +1,5 @@
+entity.laptop_entity.add_form:
+  route_name: entity.laptop_entity.add_form
+  title: 'Add Laptop entity'
+  appears_on:
+    - entity.laptop_entity.collection

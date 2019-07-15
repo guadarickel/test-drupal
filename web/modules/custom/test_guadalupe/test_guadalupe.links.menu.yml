@@ -1,0 +1,91 @@
+
+# Laptop entity menu items definition
+entity.laptop_entity.collection:
+  title: 'Laptop entity list'
+  route_name: entity.laptop_entity.collection
+  description: 'List Laptop entity entities'
+  parent: system.admin_structure
+  weight: 100
+
+laptop_entity.admin.structure.settings:
+  title: 'Laptop entity settings'
+  description: 'Configure Laptop entity entities'
+  route_name: laptop_entity.settings
+  parent: system.admin_structure
+
+# First Level of Mi Menu
+test_guadalupe.shops:
+  title: 'Drupal Shops'
+  description: 'Drupal Shops'
+  parent: mi-menu
+  menu_name: mi-menu
+  route_name: laptop_entity.settings
+
+test_guadalupe.doctor:
+  title: 'Doctor Drupal'
+  description: 'Doctor Drupal'
+  parent: mi-menu
+  menu_name: mi-menu
+  route_name: laptop_entity.settings
+
+# Second Level of Mi Menu
+test_guadalupe.sobre:
+  title: 'Sobre nosotros'
+  description: 'Sobre nosotros'
+  parent: test_guadalupe.shops
+  route_name: laptop_entity.settings
+
+test_guadalupe.vision:
+  title: 'Vision'
+  description: 'Vision'
+  parent: test_guadalupe.shops
+  route_name: laptop_entity.settings
+
+test_guadalupe.mision:
+  title: 'Mision'
+  description: 'Mision'
+  parent: test_guadalupe.shops
+  route_name: laptop_entity.settings
+
+test_guadalupe.valores:
+  title: 'Valores'
+  description: 'Valores'
+  parent: test_guadalupe.shops
+  route_name: laptop_entity.settings
+
+test_guadalupe.contacto:
+  title: 'Contacto'
+  description: 'Contacto'
+  parent: test_guadalupe.shops
+  route_name: laptop_entity.settings
+
+test_guadalupe.api:
+  title: 'API'
+  description: 'API'
+  parent: test_guadalupe.doctor
+  route_name: laptop_entity.settings
+
+test_guadalupe.download:
+  title: 'Download'
+  description: 'Download'
+  parent: test_guadalupe.doctor
+  route_name: laptop_entity.settings
+
+# Third Level of Mi Menu
+test_guadalupe.wunderkraut:
+  title: 'Wunderkraut'
+  description: 'Wunderkraut'
+  parent: test_guadalupe.sobre
+  route_name: laptop_entity.settings
+
+test_guadalupe.appnovation:
+  title: 'Appnovation'
+  description: 'Appnovation'
+  parent: test_guadalupe.sobre
+  route_name: laptop_entity.settings
+
+test_guadalupe.lullabot:
+  title: 'Lullabot'
+  description: 'Lullabot'
+  parent: test_guadalupe.sobre
+  route_name: laptop_entity.settings

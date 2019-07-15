@@ -1,0 +1,19 @@
+add laptop entity entities:
+  title: 'Create new Laptop entity entities'
+
+administer laptop entity entities:
+  title: 'Administer Laptop entity entities'
+  description: 'Allow to access the administration form to configure Laptop entity entities.'
+  restrict access: true
+
+delete laptop entity entities:
+  title: 'Delete Laptop entity entities'
+
+edit laptop entity entities:
+  title: 'Edit Laptop entity entities'
+
+view published laptop entity entities:
+  title: 'View published Laptop entity entities'
+
+view unpublished laptop entity entities:
+  title: 'View unpublished Laptop entity entities'
